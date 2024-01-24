@@ -1,6 +1,7 @@
 package net.sydokiddo.example;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.resources.ResourceLocation;
 import net.sydokiddo.chrysalis.Chrysalis;
 import net.sydokiddo.example.registry.ModRegistry;
 import org.slf4j.Logger;
@@ -11,6 +12,10 @@ public class Mod implements ModInitializer {
 
 	public static final String MOD_ID = "modid";
 	public static final Logger LOGGER = LoggerFactory.getLogger("Mod Name");
+
+	public static ResourceLocation id(String name) {
+		return new ResourceLocation(MOD_ID, name);
+	}
 
 	@Override
 	public void onInitialize() {
