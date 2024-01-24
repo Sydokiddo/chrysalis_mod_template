@@ -1,1 +1,3 @@
-This template uses Mojang Mappings and has the general file format set up to use as a template!
+This is a Minecraft mod template for Fabric using Mojang Mappings that has Chrysalis integrated into it! 
+
+This will typically always be updated to the latest Minecraft version.

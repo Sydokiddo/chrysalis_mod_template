@@ -9,7 +9,7 @@
     "Sydokiddo"
   ],
   "contact": {},
-  "license": "MIT",
+  "license": "Custom License",
   "icon": "assets/modid/icon.png",
   "accessWidener": "modid.accesswidener",
   "environment": "*",
@@ -27,10 +27,11 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.19",
+    "fabricloader": ">=0.15.3",
     "fabric-api": "*",
-    "minecraft": "~1.19.4",
-    "java": ">=17"
+    "minecraft": ">=1.20.4",
+    "java": ">=17",
+    "chrysalis": ">=0.2.8"
   },
   "suggests": {
     "another-mod": "*"
